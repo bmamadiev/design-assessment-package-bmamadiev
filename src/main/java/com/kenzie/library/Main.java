@@ -51,6 +51,8 @@ public class Main {
 
             Logger log = Logger.getInstance();
 
+            log.logMessage("Process starting");
+
             String responseOne = BookRequest.sendGET(BOOK_1);
             log.logMessage(responseOne);
             String responseTwo = BookRequest.sendGET(BOOK_2);

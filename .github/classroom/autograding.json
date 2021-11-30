@@ -8,7 +8,17 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": null
+      "points": 1
+    },
+    {
+      "name": "gradle test 2",
+      "setup": "",
+      "run": "gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
